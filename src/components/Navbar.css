@@ -1,0 +1,26 @@
+.navcon{
+    font-family: ubuntu,sans-serif;
+    color: white;
+    max-width: 1111px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+h2 span{
+    color: crimson;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+    padding-right: 30px;
+    cursor: pointer;
+    transition:all 0.5s ease;
+}
+li:hover{
+    color: crimson;
+}

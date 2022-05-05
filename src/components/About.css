@@ -1,0 +1,32 @@
+.about{
+    color: #e2e8f0;
+    height: 100vh;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1111px;
+    margin: auto;
+    height: 80%;
+}
+.content1 > p{
+    font-size: 2.25rem;
+    font-weight: bold;
+    border-bottom: 4px solid #E6007E;
+}
+.content2{
+    /* border: 2px solid white; */
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 900px;
+    grid-column-gap: 14px;
+}
+.p22 p{
+    font-size: 2.25rem;
+}
+.p3 p{
+    font-size: 1rem;
+}
