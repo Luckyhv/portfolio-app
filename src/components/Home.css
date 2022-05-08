@@ -1,14 +1,19 @@
 .a{
-    height: 100vh;
     max-width: 1111px;
     margin: auto;
+    padding-left: 8px;
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* border: 2px solid gray; */
+
 }
 .p1{
     color: #E6007E;
     margin: 0px;
+    font-size: 1.2rem;
 }
 .h11{
     margin: 0px;
@@ -54,4 +59,38 @@
     position: fixed;
     top: 50%;
     left: 0;
+}
+@media (max-width:1121px){
+    .a{
+        padding-left: 30px;
+    }
+}
+@media (max-width:640px){
+    .p1{
+        font-size: 1rem;
+    }
+    .h11{
+        font-size: 2.3rem;
+    }
+    .h21{
+        font-size: 2.2rem;
+    }
+    .viewbtn{
+        padding: 0.5rem 0.5rem;
+    }
+}
+@media (max-width:410px){
+    .a{
+        width: 410px;
+        /* border: 2px solid red; */
+    }
+    .p1{
+        font-size: 0.8rem;
+    }
+    .h11{
+        font-size: 1.8rem;
+    }
+    .h21{
+        font-size: 1.8rem;
+    }
 }

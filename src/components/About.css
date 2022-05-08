@@ -3,18 +3,20 @@
     height: 100vh;
 }
 .con{
+    max-width: 1111px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1111px;
     margin: auto;
-    height: 80%;
+    height: 100%;
+    /* border: 2px solid red; */
 }
 .content1 > p{
     font-size: 2.25rem;
     font-weight: bold;
     border-bottom: 4px solid #E6007E;
+    margin-bottom: 0;
 }
 .content2{
     /* border: 2px solid white; */
